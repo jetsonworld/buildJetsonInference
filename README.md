@@ -22,4 +22,4 @@ sudo ldconfig
 ```
 
 ## 출처
-![Jetson Zoo](https://elinux.org/Jetson_Zoo)
+[Jetson Zoo](https://elinux.org/Jetson_Zoo)
