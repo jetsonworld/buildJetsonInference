@@ -1,5 +1,9 @@
 # 젯슨 인퍼런스를 빌드하기 (Korean Version)
 ***
+![image01](https://elinux.org/images/c/c7/Hello-AI-World-CV.png)
+
+여러분의 젯슨 나노에서 터미널을 엽니다. (단축키: Ctrl + Alt + T)
+
 (1) 다운로드하기
 ```
 git clone https://github.com/dusty-nv/jetson-inference
