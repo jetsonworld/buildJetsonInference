@@ -27,21 +27,25 @@ sudo make install
 sudo ldconfig
 ```
 
-## Start the Jetson Inference
-(1) Object Detection
+(4) 실행하기
+
+* Object Detection
+```
 cd /home/ubuntu/jetson-inference/build/aarch64/bin
 python3 detectnet-camera.py
 python3 imagenet-camera.py
 python3 my-detection.py
+```
 
-(2) Image Detection 
+* Image Detection 
+```
 chmod +x my-recognition.py
 wget https://raw.githubusercontent.com/dusty-nv/jetson-inference/master/data/images/polar_bear.jpg
 ./my-recognition.py polar_bear.jpg
 
 wget https://raw.githubusercontent.com/dusty-nv/jetson-inference/master/data/images/brown_bear.jpg
 ./my-recognition.py brown_bear.jpg
-
+```
 
 
 ## 출처
